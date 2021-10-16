@@ -13,7 +13,7 @@ void setup(){
 
   
    //PARTICULES SPAWNER
-    for( int i = 0 ; i < 20000   ; i++  ){
+    for( int i = 0 ; i < 40000   ; i++  ){
       Particule p = new Particule(random(width),random(height));
       particules.add(p);
     }
